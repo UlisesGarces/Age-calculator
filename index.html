@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <script defer src="code.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <main class="general-section">
+      <section class="input-part">
+        <form action="/action_page.php" class="age-input">
+          <div id="DayLabel">
+            <label for="day">DAY</label>
+            <br />
+            <input type="text" class="Day-Input" name="day" placeholder="DD" />
+            <br />
+            <p id="p-Day"></p>
+          </div>
+          <div id="MonthLabel">
+            <label for="month">MONTH</label>
+            <br />
+            <input
+              type="text"
+              class="Month-Input"
+              name="month"
+              placeholder="MM"
+            /><br />
+            <p id="p-Month"></p>
+          </div>
+          <div id="YearLabel">
+            <label for="year">YEAR</label>
+            <br />
+            <input
+              type="text"
+              class="Year-Input"
+              name="year"
+              placeholder="YYYY"
+            />
+            <p id="p-Year"></p>
+          </div>
+        </form>
+      </section>
+
+      <div>
+        <hr />
+        <div class="arrow-img">
+          <button class="arrow-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="46"
+              height="44"
+              viewBox="0 0 46 44"
+            >
+              <g fill="none" stroke="#FFF" stroke-width="2">
+                <path
+                  d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"
+                />
+              </g>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!--------------------------------------------------------------------->
+      <section class="Results">
+        <div class="result-let">
+          <div id="r-el1">
+            <h1 id="resulYear">--</h1>
+            <h2>years</h2>
+          </div>
+          <div id="r-el2">
+            <h1 id="resulMonth">--</h1>
+            <h2>months</h2>
+          </div>
+          <div id="r-el3">
+            <h1 id="resulDay">--</h1>
+            <h2>days</h2>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

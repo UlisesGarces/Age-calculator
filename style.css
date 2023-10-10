@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(assets/fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "PoppinsBoldItalic";
+  src: url(assets/fonts/Poppins-BoldItalic.ttf);
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: url(assets/fonts/Poppins-Bold.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+html {
+  background-color: rgb(232, 232, 232);
+}
+.general-section {
+  width: fit-content;
+  margin: 3rem;
+  background-color: white;
+  padding: 4rem;
+  font-family: "Poppins";
+}
+
+.age-input {
+  border-style: none;
+  display: flex;
+  gap: 3rem;
+  padding-right: 20rem;
+  font-family: "PoppinsBold";
+  letter-spacing: 4px;
+  padding-bottom: 2.5rem;
+  font-size: 0.8rem;
+  color: hsl(0, 1%, 44%);
+}
+
+.age-input input {
+  font-size: 1.5rem;
+  width: 9rem;
+  border-style: none;
+  border: 1px solid hsl(0, 0%, 70%);
+
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+  font-family: "PoppinsBold";
+}
+.Results {
+  display: flex;
+  gap: 10rem;
+  font-size: 3rem;
+  font-family: "PoppinsBoldItalic";
+  padding: 1rem;
+}
+.Results div p {
+  color: hsl(259, 100%, 65%);
+}
+hr {
+  position: relative;
+}
+
+.arrow-button {
+  left: 860px;
+  top: 185px;
+  position: absolute;
+  background-color: hsl(259, 100%, 65%);
+  padding: 28px;
+  border-style: none;
+  height: 6.5rem;
+  border-radius: 5rem;
+  transition: all 0.1s;
+}
+.arrow-button:hover {
+  cursor: pointer;
+  background-color: hsl(259, 57%, 52%);
+  transition: all 0.5;
+}
+.arrow-button:active {
+  cursor: pointer;
+  background-color: black;
+}
+.redishWronger {
+  color: red;
+}
+.redishWronger input[type="text"] {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 0, 0);
+}
+
+#r-el1,
+#r-el2,
+#r-el3 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.result-let h1 {
+  color: hsl(259, 100%, 65%);
+}
+#p-Year,
+#p-Day,
+#p-Month {
+  font-style: "Poppins";
+  letter-spacing: 0;
+}
